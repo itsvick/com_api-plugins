@@ -128,7 +128,7 @@ class EasysocialApiResourceNewsfeed extends ApiResource
 					$options['guest']	=	true;
 					$options['type']	=	'bookmarks';
 				case 'me':
-					$options['view']	=	$view;
+					$options['view']	=	'profile';
 					break;
 				case 'hashtag':
 					$options['tag']	=	$tag;
